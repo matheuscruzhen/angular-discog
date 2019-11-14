@@ -1,0 +1,19 @@
+.album {
+  background-color: palegoldenrod;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+}
+
+.album p {
+  margin-bottom: 5px;
+  width: fit-content;
+}
+
+button {
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin: 0 5px 5px 0;
+  display: inline-block;
+}

@@ -1,0 +1,21 @@
+
+<form #form="ngForm" [(formGroup)]="albumForm" (ngSubmit)="onSubmit(form)" >
+  <h2 class="header">New Album</h2>
+  <div class="field">
+    <label for="">Title:</label>
+      <input type="text" formControlName="title">
+  </div>
+  <div class="field">
+    <label for="">Band:</label>
+    <input type="text" formControlName="band">
+  </div>
+  <div class="field">
+    <label for="">Genre:</label>
+      <input type="text" formControlName="genre">
+  </div>
+  <div class="field">
+    <label for="">Released:</label>
+      <input type="text" formControlName="released">
+  </div>
+  <button type="submit">Submit</button>
+</form>
