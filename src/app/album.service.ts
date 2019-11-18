@@ -12,8 +12,13 @@ export class AlbumService {
 
   constructor() { }
 
+  getAlbums() {
+    this.albums;
+  }
+
   submit(values) {
     this.newAlbum = values;
+    // Lembrar de por um gerador de ids automatico
     this.albums.push(this.newAlbum); 
     console.log(this.albums);
   }
@@ -23,6 +28,6 @@ export class AlbumService {
   }
 
   delete() {
-
+    this.albums.pop();
   }
 }

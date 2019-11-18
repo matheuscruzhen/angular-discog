@@ -1,4 +1,5 @@
 <div class="album" *ngFor="let album of albums">
+  
   <h4>{{ album.title }}</h4>
   <p>{{ album.band }}</p>
   <p>{{ album.genre }}</p>
@@ -6,5 +7,5 @@
   
   <button (click)="onUpdate()">Update</button>
   <button (click)="onDelete()">Delete</button>
-  
+
 </div>

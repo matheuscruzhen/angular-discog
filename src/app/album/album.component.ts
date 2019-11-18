@@ -16,6 +16,14 @@ export class AlbumComponent implements OnInit {
   
   constructor(private AlbumService: AlbumService) { }
 
+  onDelete() {
+    this.AlbumService.delete();
+  }
+  
+  onUpdate() {
+    
+  }
+  
   ngOnInit() {
   }
 

@@ -15,6 +15,7 @@ export class AlbumFormComponent implements OnInit {
   constructor(private AlbumService: AlbumService) { }
 
   albumForm = new FormGroup({
+    id: new FormControl(''),
     title: new FormControl(''),
     band: new FormControl(''),
     genre: new FormControl(''),
@@ -37,10 +38,6 @@ export class AlbumFormComponent implements OnInit {
       genre: this.album.genre,
       released: this.album.released,
     })
-  }
-
-  onDelete() {
-
   }
   
   ngOnInit() {}

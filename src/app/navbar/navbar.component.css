@@ -1,0 +1,20 @@
+.nav {
+  background-color: paleturquoise;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: 800;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: snow;
+}

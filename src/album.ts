@@ -1,6 +1,7 @@
 export class Album {
-  title: String;
-  band: String;
-  released: String;
-  genre: String;
+  id: number;
+  title: string;
+  band: string;
+  released: string;
+  genre: string;
 }
